@@ -1,13 +1,16 @@
 body {
-  background-image: url("./haiku-bck.jpg");
+  background-image: url("./kanji-bcg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: "Poppins", sans-serif;
 }
+
 .container {
   margin: 100px auto 10px;
   max-width: 600px;
 }
 .intro {
+  text-align: center;
   background-color: #ffff;
   border-radius: 5px;
   padding: 30px;
@@ -18,36 +21,41 @@ h1 {
   font-family: "Comforter Brush", cursive;
   text-align: center;
 }
-.description {
-  text-align: center;
-}
-
 form {
-  padding: 30px;
+  margin: 30px 20px 0px;
   border-radius: 30px;
   display: flex;
 }
 .topics {
   padding: 10px;
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 16px;
   border-radius: 15px;
-  border: 0px;
-  margin: 10px;
+  border: 1px solid rgb(48, 47, 53);
+  margin: 5px;
   width: 40%;
-  box-shadow: 0px 4px 30px 0px rgb(48, 47, 53, 0.3);
+  box-shadow: 0px 4px 10px 0px rgb(48, 47, 53, 0.3);
 }
 .submit-button {
   color: #ffff;
   background-color: rgb(48, 47, 53);
+  margin: 5px;
   width: 20%;
   border: 0px;
   border-radius: 15px;
-  font-size: 10px;
-  line-height: 20px;
+  font-size: 14px;
+  max-height: 37px;
 }
 .submit-button:hover {
   background-color: rgb(28, 27, 31);
   transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+.hint {
+  font-size: 12px;
+  text-align: left;
+  margin: 0px 0px 20px 50px;
+  opacity: 0.8;
 }
 .haikuText {
   line-height: 2;
@@ -58,7 +66,25 @@ form {
   padding: 30px;
   box-shadow: 0px 4px 30px 0px rgb(48, 47, 53, 0.3);
 }
+.hidden {
+  display: none;
+}
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
 a {
+  color: black;
   text-decoration: none;
   font-weight: bold;
 }
