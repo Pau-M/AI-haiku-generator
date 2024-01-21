@@ -4,7 +4,7 @@ body {
   background-size: cover;
 }
 .container {
-  margin: 120px auto;
+  margin: 100px auto 10px;
   max-width: 600px;
 }
 .intro {
