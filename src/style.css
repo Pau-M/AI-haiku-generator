@@ -1,3 +1,10 @@
+body {
+  margin: 120px auto;
+  max-width: 600px;
+}
+.container {
+  padding: 10px;
+}
 h1 {
-  color: blueviolet;
+  font-family: "Comforter Brush", cursive;
 }

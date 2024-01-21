@@ -5,14 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI haiku generator</title>
     <link rel="stylesheet" href="./src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>HAIKU by AI</h1>
-    <p>Welcome to AI haiku generator</p>
-    <footer>
-      Project coded by <a href="#">Paulina Mozga</a> and is open-sourced on
-      <a href="#">GitHub</a>
-    </footer>
+    <div class="container">
+      <header>
+        <h1>Haiku by AI</h1>
+        <p>Welcome to AI haiku generator</p>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            autocomplete="off"
+            placeholder="Enter first topic"
+            autofocus
+            required
+          />
+          <input
+            type="text"
+            autocomplete="off"
+            placeholder="Enter second topic"
+            autofocus
+            required
+          />
+          <input type="submit" />
+        </form>
+        <div>
+          haiku text<br />
+          haiku text<br />
+          haiku text
+        </div>
+      </main>
+      <footer>
+        Project coded by
+        <a href="https://github.com/Pau-M">Paulina Mozga</a> and is open-sourced
+        on
+        <a href="https://github.com/Pau-M/AI-haiku-generator">GitHub</a>
+      </footer>
+    </div>
     <script src="./src/index.js"></script>
   </body>
 </html>
