@@ -1,10 +1,69 @@
 body {
+  background-image: url("./haiku-bck.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
   margin: 120px auto;
   max-width: 600px;
 }
-.container {
-  padding: 10px;
+.intro {
+  background-color: #ffff;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0px 4px 30px 0px rgb(48, 47, 53, 0.3);
 }
 h1 {
+  font-size: 60px;
   font-family: "Comforter Brush", cursive;
+  text-align: center;
+}
+.description {
+  text-align: center;
+}
+
+form {
+  padding: 30px;
+  border-radius: 30px;
+  display: flex;
+}
+.topics {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 15px;
+  border: 0px;
+  margin: 10px;
+  width: 40%;
+  box-shadow: 0px 4px 30px 0px rgb(48, 47, 53, 0.3);
+}
+.submit-button {
+  color: #ffff;
+  background-color: rgb(48, 47, 53);
+  width: 20%;
+  border: 0px;
+  border-radius: 15px;
+  font-size: 10px;
+  line-height: 20px;
+}
+.submit-button:hover {
+  background-color: rgb(28, 27, 31);
+  transition: all 200ms ease-in-out;
+}
+.haikuText {
+  line-height: 2;
+  margin-top: 20px;
+  background-color: #ffff;
+  border-left: 3px solid black;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0px 4px 30px 0px rgb(48, 47, 53, 0.3);
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
 }

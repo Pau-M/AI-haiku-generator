@@ -11,44 +11,44 @@
       href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Poppins:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
-      <header>
-        <h1>Haiku by AI</h1>
-        <p>Welcome to AI haiku generator</p>
-      </header>
-      <main>
-        <form>
+      <div class="intro">
+        <header>
+          <h1>Haiku by AI</h1>
+          <p class="description">Welcome to AI haiku generator</p>
+        </header>
+        <form id="haiku-generator">
           <input
             type="text"
+            class="topics"
             autocomplete="off"
-            placeholder="Enter first topic"
+            placeholder="Type first topic"
             autofocus
             required
           />
           <input
             type="text"
+            class="topics"
             autocomplete="off"
-            placeholder="Enter second topic"
+            placeholder="Type second topic"
             autofocus
             required
           />
-          <input type="submit" />
+          <input class="submit-button" type="submit" />
         </form>
-        <div>
-          haiku text<br />
-          haiku text<br />
-          haiku text
-        </div>
-      </main>
-      <footer>
-        Project coded by
-        <a href="https://github.com/Pau-M">Paulina Mozga</a> and is open-sourced
-        on
-        <a href="https://github.com/Pau-M/AI-haiku-generator">GitHub</a>
-      </footer>
+        <a href="#">Learn more about haiku</a>
+      </div>
+      <div class="haikuText" id="haiku"></div>
     </div>
+    <footer>
+      Project coded by
+      <a href="https://github.com/Pau-M">Paulina Mozga</a> and is open-sourced
+      on
+      <a href="https://github.com/Pau-M/AI-haiku-generator">GitHub</a>
+    </footer>
     <script src="./src/index.js"></script>
   </body>
 </html>
