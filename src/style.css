@@ -1,28 +1,31 @@
 body {
-  background-image: url("./kanji-bcg.jpg");
+  background-image: url("./kanji-bcg.png");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Poppins", sans-serif;
 }
 
 .container {
-  margin: 100px auto 10px;
+  margin: 90px auto 10px;
   max-width: 600px;
 }
 .intro {
   text-align: center;
   background-color: #ffff;
   border-radius: 5px;
-  padding: 30px;
+  padding: 25px;
   box-shadow: 0px 4px 30px 0px rgb(48, 47, 53, 0.3);
 }
 h1 {
   font-size: 60px;
   font-family: "Comforter Brush", cursive;
-  text-align: center;
+}
+p {
+  font-size: 14px;
+  color: rgb(48, 47, 53);
 }
 form {
-  margin: 30px 20px 0px;
+  margin: 25px 20px 0px;
   border-radius: 30px;
   display: flex;
 }
@@ -59,9 +62,10 @@ form {
 }
 .haikuText {
   line-height: 2;
+  font-size: 15px;
   margin-top: 20px;
   background-color: #ffff;
-  border-left: 3px solid black;
+  border-left: 4px solid rgb(48, 47, 53);
   border-radius: 5px;
   padding: 30px;
   box-shadow: 0px 4px 30px 0px rgb(48, 47, 53, 0.3);
@@ -84,7 +88,7 @@ form {
 }
 
 a {
-  color: black;
+  color: #000;
   text-decoration: none;
   font-weight: bold;
 }
@@ -92,4 +96,8 @@ footer {
   text-align: center;
   margin-top: 10px;
   font-size: 12px;
+  color: #ffff;
+}
+footer a {
+  color: #ffff;
 }
